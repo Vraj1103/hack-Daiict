@@ -1,6 +1,8 @@
 
 [HMS_DA_Progress_Report.pdf](https://github.com/Vraj1103/hack-Daiict/files/12445199/HMS_DA_Progress_Report.pdf)
 
+[Cof-freaks PPT.pdf](https://github.com/Vraj1103/hack-Daiict/files/12446042/Cof-freaks.PPT.pdf)
+
 # Hey, Welcome to Repo of Team-Cof-freaks! 👋
 
 
