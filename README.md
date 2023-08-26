@@ -1,3 +1,5 @@
+```[Uploading _Dark Blue and Cyan Modern Technology Pitch Deck Presentation.pdf…]()```
+[HMS_DA_Progress_Report.pdf](https://github.com/Vraj1103/hack-Daiict/files/12445199/HMS_DA_Progress_Report.pdf)
 
 # Hey, Welcome to Repo of Team-Cof-freaks! 👋
 
@@ -63,8 +65,4 @@ To run this project, you will need to add the following environment variables to
 DATABASE contains the dbURI of MongoDB connections and SECRET_KEY contains Secret key for signing and verifying Jason Web Tokens (JWT)
 
 
-## Authors
-
-- [@rohitvpatil0810](https://www.github.com/rohitvpaitl0810)
-- [@jayesh1602](https://www.github.com/jayesh1602)
 
