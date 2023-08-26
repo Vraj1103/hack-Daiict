@@ -1,4 +1,4 @@
-```[Uploading _Dark Blue and Cyan Modern Technology Pitch Deck Presentation.pdf…]()```
+
 [HMS_DA_Progress_Report.pdf](https://github.com/Vraj1103/hack-Daiict/files/12445199/HMS_DA_Progress_Report.pdf)
 
 # Hey, Welcome to Repo of Team-Cof-freaks! 👋
