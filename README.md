@@ -5,7 +5,7 @@
 
 
 
-[Named Entity Recognition Model](https://huggingface.co/fictionbelt/ner_med_prescription/tree/main)
+[Prescription Analyser (NER) Model](https://huggingface.co/fictionbelt/ner_med_prescription/tree/main)
 # Hey, Welcome to Repo of Team-Cof-freaks! 👋
 
 
