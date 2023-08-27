@@ -3,6 +3,9 @@
 
 [Cof-freaks_PPT.pptx](https://github.com/Vraj1103/hack-Daiict/files/12447278/Cof-freaks_PPT.pptx)
 
+
+
+[Named Entity Recognition Model](https://huggingface.co/fictionbelt/ner_med_prescription/tree/main)
 # Hey, Welcome to Repo of Team-Cof-freaks! 👋
 
 
