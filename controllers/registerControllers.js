@@ -33,7 +33,7 @@ const handleError = (err) => {
 };
 
 module.exports.patient_register = async (req, res) => {
-  const diseases = Object.values(req.body.diseases);
+  const diseases = Object.values(req.body);
   const {
     name,
     dob,

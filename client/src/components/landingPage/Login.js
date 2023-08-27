@@ -15,7 +15,8 @@ export default function Login(props) {
   useEffect(() => {
     const auth = async () => {
       const res = await fetch("/auth");
-      const data = await res.json();
+      // const data = await res.json();
+      const data = false;
       if (data.msg === "Doctor Login Found") {
         navigate("/doctor/dashboard");
       }
@@ -73,7 +74,8 @@ export default function Login(props) {
       }),
     });
 
-    const data = await res.json();
+    // const data = await res.json();
+    const data = false;
     if (data.err) {
       setLoading(false);
       props.settoastCondition({

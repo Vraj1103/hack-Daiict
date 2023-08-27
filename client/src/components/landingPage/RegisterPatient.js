@@ -10,13 +10,13 @@ export default function Register(props) {
   const navigate = useNavigate();
   const [Loading, setLoading] = useState(false);
   const [Toggle, setToggle] = useState("Patient");
-  const [confirmPassword, setConfirmPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("chalaja");
   const [errors, setErrors] = useState({
     name: {},
     address: {},
     contactPerson: { address: {} },
   });
-  const [diseaseList, setDiseaseList] = useState([{ disease: "", yrs: "" }]);
+  const [diseaseList, setDiseaseList] = useState([{ disease: "diabetes", yrs: "6" }]);
   const [passwordError, setPasswordError] = useState("");
   const addDisease = () => {
     const diseaseList1 = [...diseaseList];
@@ -26,40 +26,40 @@ export default function Register(props) {
 
   const [patient, setPatient] = useState({
     name: {
-      firstName: "",
-      middleName: "",
-      surName: "",
+      firstName: "vivek",
+      middleName: "chirag",
+      surName: "shah",
     },
-    dob: "",
-    mobile: "",
-    email: "",
-    adharCard: "",
-    bloodGroup: "",
+    dob: "2014-02-09",
+    mobile: "9999999999",
+    email: "sjdhjkWjhj@kjkshjk.cj",
+    adharCard: "387893984",
+    bloodGroup: "Op",
     address: {
-      building: "",
-      city: "",
-      taluka: "",
-      district: "",
-      state: "",
-      pincode: "",
+      building: "105 ",
+      city: "gdr",
+      taluka: "gdr",
+      district: "gdr",
+      state: "guj",
+      pincode: "389812",
     },
-    password: "",
+    password: "chalaja",
     diseases: diseaseList,
     contactPerson: {
       name: {
-        firstName: "",
-        surName: "",
+        firstName: "vivek",
+        surName: "shah",
       },
-      mobile: "",
-      email: "",
-      relation: "",
+      mobile: "21278381",
+      email: "hello@gmail.com",
+      relation: "papa",
       address: {
-        building: "",
-        city: "",
-        taluka: "",
-        district: "",
-        state: "",
-        pincode: "",
+        building: "105",
+        city: "gdr",
+        taluka: "gdr",
+        district: "gr",
+        state: "guj",
+        pincode: "380062",
       },
     },
   });
