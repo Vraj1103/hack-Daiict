@@ -2,6 +2,7 @@ const Admin = require("../models/admin");
 const Doctor = require("../models/doctor");
 const Patient = require("../models/patient");
 const jwt = require("jsonwebtoken");
+const SECRET_KEY = process.env.SECRET_KEY || "6f5e991b814dc6e4b670346cd735d6c1a9db8d7c545ad5e9a787ca964b51544c";
 const maxAge = 3 * 24 * 60 * 60;
 const { createToken } = require("../utils/createToken");
 const handleError = (err) => {
@@ -41,7 +42,7 @@ module.exports.auth = async (req, res) => {
   if (req.cookies.jwt) {
     const token = req.cookies.jwt;
     if (token) {
-      jwt.verify(token, process.env.SECRET_KEY, async (err, decodedToken) => {
+      jwt.verify(token, SECRET_KEY, async (err, decodedToken) => {
         if (err) {
           res.status(100).json({ msg: "Proceed to login" });
         } else {

@@ -18,7 +18,7 @@ app.use(express.static("public"));
 app.use(express.json());
 app.use(cookieParser());
 
-const dbURI = process.env.DATABASE;
+const dbURI = process.env.DATABASE || "mongodb://127.0.0.1:27017";
 const port = process.env.PORT || 5000;
 mongoose
   .connect(dbURI)

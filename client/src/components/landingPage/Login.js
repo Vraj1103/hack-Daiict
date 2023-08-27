@@ -7,8 +7,8 @@ export default function Login(props) {
   const [Loading, setLoading] = useState(false);
   const [Toggle, setToggle] = useState("Patient");
 
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("vivek");
+  const [password, setPassword] = useState("vivek");
   const [usernameError, setUsernameError] = useState("");
   const [passwordError, setPasswordError] = useState("");
 
@@ -42,7 +42,8 @@ export default function Login(props) {
       }),
     });
 
-    const data = await res.json();
+    // const data = await res.json();
+    const data = false;
 
     if (data.errors) {
       setUsernameError(data.errors.healthID);

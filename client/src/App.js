@@ -28,9 +28,9 @@ import "react-toastify/dist/ReactToastify.css";
 import Page404 from "./pages/Page_404";
 
 function App() {
-  const [healthID, setHealthID] = useState("");
+  const [healthID, setHealthID] = useState("hello");
   const [prescriptionID, setPrescriptionID] = useState("");
-  const [toastShow, setToastShow] = useState(false);
+  const [toastShow, setToastShow] = useState(true);
   const [toastCondition, settoastCondition] = useState({
     status: "",
     message: "",
@@ -47,7 +47,7 @@ function App() {
       toast.info(toastCondition.message);
     }
     settoastCondition({
-      status: "",
+      status: "success",
       message: "",
     });
     setToastShow(false);
