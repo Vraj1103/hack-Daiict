@@ -51,7 +51,7 @@ export default function Register(props) {
         surName: "shah",
       },
       mobile: "6352099548",
-      email: "hello@gmail.com",
+      email: "hello1@gmail.com",
       relation: "papa",
       address: {
         building: "lt1",

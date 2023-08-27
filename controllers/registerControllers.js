@@ -44,7 +44,7 @@ module.exports.patient_register = async (req, res) => {
     address,
     password,
     contactPerson,
-  } = req.body;
+} = req.body;
 
   const healthID = adharCard;
   try {
@@ -66,7 +66,8 @@ module.exports.patient_register = async (req, res) => {
     res.status(200).json({ patient });
   } catch (err) {
     const errors = handleError(err);
-    res.status(404).json({ errors });
+    console.log(err)
+    // res.status(404).json({ errors });
   }
 };
 
