@@ -450,7 +450,7 @@ export default function Register(props) {
                           type="text"
                           name="disease"
                           value={disease.disease}
-                          placeholder="eg.dibetes"
+                          placeholder="eg.diabetes"
                           onChange={(e) => {
                             let diseaseList1 = [...diseaseList];
                             diseaseList1[index].disease = e.target.value;
