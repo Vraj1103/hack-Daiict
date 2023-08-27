@@ -1,6 +1,7 @@
 const jwt = require("jsonwebtoken");
 const Patient = require("../models/patient");
 
+const SECRET_KEY = process.env.SECRET_KEY || "7a9f5b2e8c1d36f0e52a18bdc47e1c93"
 const requirePatientAuth = (req, res, next) => {
   const token = req.cookies.jwt;
   if (token) {

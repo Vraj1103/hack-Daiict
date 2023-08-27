@@ -31,16 +31,16 @@ export default function Register(props) {
       surName: "shah",
     },
     dob: "2014-02-09",
-    mobile: "9999999999",
-    email: "sjdhjkWjhj@kjkshjk.cj",
-    adharCard: "387893984",
-    bloodGroup: "Op",
+    mobile: "6352099548",
+    email: "hello@gmail.com",
+    adharCard: "123443211234",
+    bloodGroup: "",
     address: {
-      building: "105 ",
-      city: "gdr",
-      taluka: "gdr",
-      district: "gdr",
-      state: "guj",
+      building: "lt1",
+      city: "gandhinagar",
+      taluka: "gandhinagar",
+      district: "gandhinagar",
+      state: "gujarat",
       pincode: "389812",
     },
     password: "chalaja",
@@ -50,15 +50,15 @@ export default function Register(props) {
         firstName: "vivek",
         surName: "shah",
       },
-      mobile: "21278381",
+      mobile: "6352099548",
       email: "hello@gmail.com",
       relation: "papa",
       address: {
-        building: "105",
-        city: "gdr",
-        taluka: "gdr",
-        district: "gr",
-        state: "guj",
+        building: "lt1",
+        city: "gandhinagar",
+        taluka: "gandhinagar",
+        district: "gandhinagar",
+        state: "gujarat",
         pincode: "380062",
       },
     },
@@ -95,7 +95,8 @@ export default function Register(props) {
         body: JSON.stringify(patient),
       });
 
-      const data = await res.json();
+      // const data = await res.json();
+      const data = false;
 
       if (data.errors) {
         setLoading(false);
